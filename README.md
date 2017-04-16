@@ -1,10 +1,10 @@
-# Algorithms with Go
+# algorithms-with-go
 
-This is a collection of different algorithms, written in Go Lang.
-The purpose of this library is to define basic algorithms in a concise,
-but readable form, therefore, no (pre)mature optimizations should be
-expected here.
+This is a collection of different algorithms written in Go Lang.
+The purpose of this package is to define basic algorithms in a concise,
+but readable form. However, no (pre)mature optimizations should be
+expected here and code should never be used on production.
 
 ## License
 
-  [MIT](LICENSE)
+[MIT](LICENSE)
