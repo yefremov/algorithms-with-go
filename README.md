@@ -9,19 +9,19 @@ expected here and code should never be used in production.
 
 ### Iterative
 
-  - coprime
+  - [x] coprime
   - [ ] prime
 
 ### Recursive
 
-  - factorial
-  - fibonacci
-  - gcd
+  - [x] factorial
+  - [x] fibonacci
+  - [x] gcd
 
 ### Search
 
-  - binary
-  - linear
+  - [x] binary
+  - [x] linear
 
 ### Sort
 
