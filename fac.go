@@ -1,5 +1,7 @@
+// Package algorithms implements simple common programming algorithms
 package algorithms
 
+// Get factorial value of n.
 func Fac(n int) int {
   if n < 1 {
     return 1

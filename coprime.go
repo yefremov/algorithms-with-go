@@ -1,5 +1,7 @@
+// Package algorithms implements simple common programming algorithms
 package algorithms
 
+// Test whether a and b are coprime integers.
 func Coprime(a, b int) bool {
   for a != b {
     if a > b {
@@ -8,6 +10,5 @@ func Coprime(a, b int) bool {
       b -= a
     }
   }
-
   return a == 1
 }

@@ -1,5 +1,7 @@
+// Package algorithms implements simple common programming algorithms
 package algorithms
 
+// Get fibonacci value of n.
 func Fib(n int) int {
   if n < 2 {
     return 1
