@@ -10,6 +10,7 @@ expected here and code should never be used in production.
 ### Iterative
 
   - [x] coprime
+  - [x] maxsubarray
   - [ ] prime
 
 ### Recursive
