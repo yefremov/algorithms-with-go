@@ -1,4 +1,3 @@
-// Package algorithms implements simple common programming algorithms
 package algorithms
 
 // Binary search of haystack for a needle.

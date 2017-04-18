@@ -1,4 +1,3 @@
-// Package algorithms implements simple common programming algorithms
 package algorithms
 
 // Test whether a and b are coprime integers.

@@ -1,4 +1,3 @@
-// Package algorithms implements simple common programming algorithms
 package algorithms
 
 import "math"
