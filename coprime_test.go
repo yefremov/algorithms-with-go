@@ -1,9 +1,23 @@
 package algorithms_test
 
 import (
-	algorithms "github.com/yefremov/algorithms-with-go"
+	"fmt"
 	"testing"
+
+	algorithms "github.com/yefremov/algorithms-with-go"
 )
+
+func ExampleCoprime() {
+	fmt.Println(algorithms.Coprime(1, 1))
+	fmt.Println(algorithms.Coprime(2, 2))
+	fmt.Println(algorithms.Coprime(13, 27))
+	fmt.Println(algorithms.Coprime(20536, 7826))
+	// Output:
+	// true
+	// false
+	// true
+	// false
+}
 
 func TestCoprime(t *testing.T) {
 	if algorithms.Coprime(1, 1) != true {

@@ -1,9 +1,24 @@
 package algorithms_test
 
 import (
-	algorithms "github.com/yefremov/algorithms-with-go"
+	"fmt"
 	"testing"
+
+	algorithms "github.com/yefremov/algorithms-with-go"
 )
+
+func ExampleFib() {
+	for i := 0; i < 6; i++ {
+		fmt.Println(algorithms.Fib(i))
+	}
+	// Output:
+	// 1
+	// 1
+	// 2
+	// 3
+	// 5
+	// 8
+}
 
 func TestFib(t *testing.T) {
 	if algorithms.Fib(1) != 1 {

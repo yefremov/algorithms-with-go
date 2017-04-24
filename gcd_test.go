@@ -1,9 +1,23 @@
 package algorithms_test
 
 import (
-	algorithms "github.com/yefremov/algorithms-with-go"
+	"fmt"
 	"testing"
+
+	algorithms "github.com/yefremov/algorithms-with-go"
 )
+
+func ExampleGcd() {
+	fmt.Println(algorithms.Gcd(468, 24))
+	fmt.Println(algorithms.Gcd(135, 19))
+	fmt.Println(algorithms.Gcd(19, 2))
+	fmt.Println(algorithms.Gcd(20536, 7826))
+	// Output:
+	// 12
+	// 1
+	// 1
+	// 2
+}
 
 func TestGcd(t *testing.T) {
 	if algorithms.Gcd(468, 24) != 12 {
@@ -24,6 +38,10 @@ func TestGcd(t *testing.T) {
 
 	if algorithms.Gcd(2, 1) != 1 {
 		t.Error("expected 1")
+	}
+
+	if algorithms.Gcd(20536, 7826) != 2 {
+		t.Error("expected 2")
 	}
 }
 

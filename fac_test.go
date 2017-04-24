@@ -1,9 +1,24 @@
 package algorithms_test
 
 import (
-	algorithms "github.com/yefremov/algorithms-with-go"
+	"fmt"
 	"testing"
+
+	algorithms "github.com/yefremov/algorithms-with-go"
 )
+
+func ExampleFac() {
+	for i := 0; i < 6; i++ {
+		fmt.Println(algorithms.Fac(i))
+	}
+	// Output:
+	// 1
+	// 1
+	// 2
+	// 6
+	// 24
+	// 120
+}
 
 func TestFac(t *testing.T) {
 	if algorithms.Fac(0) != 1 {
