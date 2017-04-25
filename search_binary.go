@@ -1,6 +1,6 @@
 package algorithms
 
-// Binary search of haystack for a needle.
+// SearchBinary searches for a `needle` in `haystack`.
 func SearchBinary(haystack []int, needle int) bool {
 	var low int = -1
 	var high int = len(haystack)

@@ -1,6 +1,6 @@
 package algorithms
 
-// Get greatest common divisor of a and b.
+// Gcd gets greatest common divisor of `a` and `b`.
 func Gcd(a, b int) int {
 	if a%b == 0 {
 		return b

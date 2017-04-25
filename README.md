@@ -1,4 +1,4 @@
-# algorithms-with-go [![Build Status](https://travis-ci.org/yefremov/algorithms-with-go.svg?branch=master)](https://travis-ci.org/yefremov/algorithms-with-go) [![GoDoc](https://godoc.org/github.com/yefremov/algorithms-with-go?status.svg)](https://godoc.org/github.com/yefremov/algorithms-with-go)
+# algorithms-with-go [![Build Status](https://travis-ci.org/yefremov/algorithms-with-go.svg?branch=master)](https://travis-ci.org/yefremov/algorithms-with-go) [![Go Report Card](https://goreportcard.com/badge/github.com/yefremov/algorithms-with-go)](https://goreportcard.com/report/github.com/yefremov/algorithms-with-go) [![GoDoc](https://godoc.org/github.com/yefremov/algorithms-with-go?status.svg)](https://godoc.org/github.com/yefremov/algorithms-with-go)
 
 This is a collection of different algorithms written in Go Lang.
 The purpose of this package is to define basic algorithms in a concise,

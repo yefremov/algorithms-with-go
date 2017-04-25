@@ -1,6 +1,6 @@
 package algorithms
 
-// Get fibonacci value of n.
+// Fib gets fibonacci value of `n`.
 func Fib(n int) int {
 	if n < 2 {
 		return 1
