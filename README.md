@@ -11,7 +11,7 @@ expected here and code should never be used in production.
 
   - [x] coprime
   - [x] maxsubarray
-  - [ ] prime
+  - [ ] isprime
 
 ### Recursive
 
