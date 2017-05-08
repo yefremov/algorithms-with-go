@@ -26,7 +26,7 @@ expected here and code should never be used in production.
 
 ### Sort
 
- - [ ] bubble
+ - [x] bubble
  - [ ] insertion
  - [ ] selection
 
